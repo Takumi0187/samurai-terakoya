@@ -1,0 +1,117 @@
+/* PC、スマホ共通のスタイル */
+body {
+  font-family: "Noto Sans Japanese";
+}
+
+/*==========
+PC用スタイル
+============*/
+/* 横幅設定 */
+body {
+  max-width: 1080px;
+  min-width: 960px;
+  margin: 0 auto;
+}
+
+/* ヘッダー */
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.nav-pc1 {
+  text-align: left;
+  font-size: 34px;
+  border: 2px solid black;
+  margin-left: 100px;
+}
+
+.nav-pc2 {
+  text-align: right;
+  font-size: 34px;
+  margin-right: 100px;
+}
+
+.nav-pc1 > a, .nav-pc2 > a {
+  text-decoration: none;
+}
+
+.nav-pc1 > a:link, .nav-pc2 > a:link {
+  color: black;
+}
+
+.nav-pc1 > a:visited, .nav-pc2 > a:visited {
+  color: black;
+}
+
+.nav-pc1 > a:hover, .nav-pc2 > a:hover {
+  color: black;
+}
+
+.nav-pc1 > a:active, .nav-pc2 > a:active {
+  color: black;
+}
+
+/* メインビジュアル */
+.main-visual {
+  position: relative;
+  height: 400px;
+  text-align : center;
+}
+
+/* About */
+h1 {
+  text-align: center;
+  font-size: 34px;
+  margin-bottom: 15px;
+}
+
+#name {
+  margin-left: 20px;
+  margin-bottom: -10px;
+}
+
+#profile {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:center;
+  font-weight: bold;
+}
+
+#profile > img {
+  width: 140px;
+  height: 140px;
+  margin: 10px;
+}
+
+/* Works */
+#parent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.works {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 600px;
+}
+
+.box {
+  width: 180px;
+}
+
+/* フッター */
+#copyright {
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+  .box {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 40px;
+  }
+}
