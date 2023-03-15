@@ -1,0 +1,14 @@
+/* PC用スタイル */
+
+
+/* 横幅設定 */
+body {
+  max-width: 1080px;
+  min-width: 960px;
+}
+
+/* ヘッダー */
+nav {
+  display: flex;
+  justify-content: space-between;
+}
