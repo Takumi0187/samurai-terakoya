@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta charset="utf-8">
   <title>Profile</title>
   <meta name="description" content="ロードバイク紹介">
-  <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible">
   <link rel="stylesheet" href="style.css">
@@ -13,21 +13,66 @@
 </head>
 
 <body>
-  <header>
+  <!-- ヘッダー -->
+  <header id="header" class="wrapper">
+    <div class="logo">
+      <a href="index.html">
+        <img src="img/logo.svg" alt="ロゴ">
+      </a>
+    </div>
     <nav>
-      <div>
-        <a href="#profile">Profile</a>
-      </div>
-      <div>
-        <a href="#about">About</a>
-        <a href="#bicycle">Bicycle</a>
-      </div>
+      <ul>
+        <li>
+          <a href="#about">About</a>
+        </li>
+        <li>
+          <a href="#bicycle">Bicycle</a>
+        </li>
+      </ul>
     </nav>
   </header>
 
   <main>
+    <!-- メインビジュアル -->
+    <div id="mainvisual">
+      <img src="img/mainvisual.jpg" alt="自転車の写真">
+    </div>
+
+    <section id="about" class="wrapper">
+      <h1 class="secition-title">About</h1>
+      <div class="content">
+        <img src="img/about.jpg" alt="icon">
+        <div class="text">
+          <h2 class="content-title">KAKERU MIYAICHI</h2>
+            <p>テキストテキストテキストテキストテキストテキスト<br>テキストテキストテキストテキストテキストテキスト<br>テキストテキストテキストテキストテキストテキスト</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="bicycle" class="wrapper">
+      <h1 class="secition-title"> Bicycle</h1>
+      <ul>
+        <li>
+          <img src="img/bicycle1.jpg" alt="自転車１">
+          <h2>タイトル</h2>
+          <p>テキストテキストテキストテキストテキストテキスト</p>
+        </li>
+        <li>
+          <img src="img/bicycle2.jpg" alt="自転車2">
+          <h2>タイトル</h2>
+          <p>テキストテキストテキストテキストテキストテキスト</p>
+        </li>
+        <li>
+          <img src="img/bicycle3.jpg" alt="自転車3">
+          <h2>タイトル</h2>
+          <p>テキストテキストテキストテキストテキストテキスト</p>
+        </li>
+      </ul>
+    </section>
   </main>
-  <footer>
+
+  <footer id="footer">
+    <p>&copy; 2020 Profile</p>
   </footer>
 
 </body>
