@@ -1,0 +1,70 @@
+/* PC用レイアウト */
+html {
+  background-color: #F4F9FF;
+}
+
+body {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.section-title {
+  font-size: 1.2rem;
+  margin-top: 60px;
+  padding-top: 30px;
+  margin-bottom: 10px;
+}
+
+.wrapper {
+  width: 600px;
+  margin: 0 auto;
+}
+
+/* header */
+header {
+  font-size: 1.5rem;
+  margin-top: 60px;
+}
+
+header a {
+  text-decoration: none;
+  color: black;
+}
+
+header a:visited {
+  color: black;
+}
+
+/* mainvisual */
+#mainvisual  img {
+  width: 100%;
+}
+
+/* index */
+#index {
+  background-color: white;
+  padding-bottom: 10px; 
+}
+
+.index-content {
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+.index-list ol {
+  display: table;
+  padding-left: 20px;
+}
+
+#index li {
+  margin-bottom: 15px;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+/* detail */
+#detail img {
+  width: 270px;
+  height: 270px;
+}
+
