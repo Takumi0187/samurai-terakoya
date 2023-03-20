@@ -68,3 +68,7 @@ header a:visited {
   height: 270px;
 }
 
+#detail {
+  display: flex;
+  justify-content: space-between;
+}
